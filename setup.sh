@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Written by Nathan Nesbitt Copyright (c) 2020
+
 # Script that installs the requirements inside of WSL and sets up VSCode
 # this will require a sudo password to install the binaries for the system.
 

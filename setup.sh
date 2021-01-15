@@ -25,7 +25,7 @@ done
 sudo apt -y update
 sudo apt -y upgrade
 
-sudo apt install -y build-essential gdb
+sudo apt install -y build-essential gdb libomp-dev
 
 # Run VSCode in WSL with current directory
 current_dir=${PWD##*/}

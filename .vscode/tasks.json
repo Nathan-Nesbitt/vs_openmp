@@ -6,6 +6,8 @@
             "label": "g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
+                "-Wall", 
+                "-fopenmp",
                 "-g",
                 "${file}",
                 "-o",
@@ -24,6 +26,8 @@
             "label": "C/C++: gcc build active file",
             "command": "/usr/bin/gcc",
             "args": [
+                "-Wall", 
+                "-fopenmp",
                 "-g",
                 "${file}",
                 "-o",

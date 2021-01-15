@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}.out",
-            "args": [],
+            "args": ["-Wall", "-fopenmp"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

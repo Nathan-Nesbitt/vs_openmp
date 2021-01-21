@@ -6,7 +6,7 @@
 # this will require a sudo password to install the binaries for the system.
 
 # Setup VSCode
-declare -a requirements=("ms-vscode-remote.remote-wsl" "ms-vscode.cpptools")
+declare -a requirements=("ms-vscode-remote.remote-wsl" "ms-vscode.cpptools", "ms-vscode.cmake-tools")
 
 # If we are working in WSL
 code_install="code"
@@ -25,7 +25,7 @@ done
 sudo apt -y update
 sudo apt -y upgrade
 
-sudo apt install -y build-essential gdb libomp-dev
+sudo apt install -y build-essential gdb libomp-dev cmake
 
 # Run VSCode in WSL with current directory
 current_dir=${PWD##*/}
